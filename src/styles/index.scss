@@ -1,0 +1,18 @@
+@import "./variables/global.scss" ;
+@import "./reset.scss" ;
+@import "./themes/normal.scss" ;
+@import "./themes/dark.scss" ;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    font: var(--font-m);
+    color: var(--primary-color);
+    background: var(--bg-color);
+
+    min-height: 100vh;
+}
